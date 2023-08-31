@@ -1,0 +1,34 @@
+body {
+  height: 100%;
+  margin: 0;
+}
+
+// bittersweet #F56960
+// bluey #489FB5
+// green #57A773
+// green #2B9720
+// mauve #896978
+// gunmetal #30343F
+// gunmetal ##2B303A
+// slate grey #2A4747
+// dark brown #3C1518
+// orange #E4572E
+// licorice #291F1E
+
+header {
+  height: 100vh;
+  background: #291F1E;
+}
+
+.page-title {
+  font-family: $main-header-font;
+  font-size: 8rem;
+  text-align: center;
+  margin: 0;
+  padding-top: 40%;
+  color: #F7F3E3;
+
+  span {
+  font-size: 10rem;
+  }
+}

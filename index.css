@@ -1,0 +1,19 @@
+body {
+  height: 100%;
+  margin: 0; }
+
+header {
+  height: 100vh;
+  background: #291F1E; }
+
+.page-title {
+  font-family: "Permanent Marker";
+  font-size: 8rem;
+  text-align: center;
+  margin: 0;
+  padding-top: 40%;
+  color: #F7F3E3; }
+  .page-title span {
+    font-size: 10rem; }
+
+/*# sourceMappingURL=index.css.map */
