@@ -15,9 +15,14 @@ body {
 // orange #E4572E
 // licorice #291F1E
 
+
 header {
   height: 100vh;
   background: #291F1E;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1;
 }
 
 .page-title {
@@ -31,4 +36,11 @@ header {
   span {
   font-size: 10rem;
   }
+}
+
+main {
+  position: relative;
+  margin-top: 100vh;
+  z-index: 2;
+  background-color: #F7F3E3;
 }
