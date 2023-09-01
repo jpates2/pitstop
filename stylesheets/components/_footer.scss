@@ -1,0 +1,13 @@
+.footer {
+  position: fixed;
+  z-index: 10;
+  bottom: 0;
+  color: $chalk;
+  font-size: 1rem;
+  font-family: $text-font;
+  background-color: $dark;
+  height: 8vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+}

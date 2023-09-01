@@ -81,7 +81,7 @@ main {
 .venus__card--buttons {
   display: flex;
   justify-content: space-between;
-  padding: 12px 0px;
+  padding: 16px 0px 24px 0px;
   font-family: "Permanent Marker"; }
 
 .venus__card--button {
@@ -89,5 +89,35 @@ main {
 
 .venus__card--button:hover {
   cursor: pointer; }
+
+.res__section {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 8vh; }
+
+.res--title {
+  font-family: "Permanent Marker";
+  font-size: 3rem; }
+
+.find__section {
+  display: flex;
+  justify-content: center; }
+
+.find--title {
+  font-family: "Permanent Marker";
+  font-size: 3rem; }
+
+.footer {
+  position: fixed;
+  z-index: 10;
+  bottom: 0;
+  color: #F7F3E3;
+  font-size: 1rem;
+  font-family: "Lato";
+  background-color: #291F1E;
+  height: 8vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center; }
 
 /*# sourceMappingURL=index.css.map */
