@@ -4,16 +4,18 @@ body {
 
 header {
   height: 100vh;
+  width: 100vw;
   background: #291F1E;
   position: fixed;
-  top: 0; }
+  top: 0;
+  display: flex;
+  align-items: center;
+  text-align: center; }
 
 .page-title {
   font-family: "Permanent Marker";
   font-size: 8rem;
-  text-align: center;
-  margin: 0;
-  padding-top: 40%;
+  width: 100vw;
   color: #F7F3E3; }
   .page-title span {
     font-size: 10rem; }
@@ -47,9 +49,45 @@ main {
 .nav-logo {
   font-family: "Permanent Marker";
   vertical-align: middle;
-  margin-left: 1rem; }
+  margin-left: 1.5rem; }
 
 .nav-menu {
-  margin-right: 1rem; }
+  margin-right: 1.5rem; }
+
+.venue__card {
+  background-color: #291F1E;
+  color: #F7F3E3;
+  overflow: hidden;
+  border-radius: 4px;
+  margin-bottom: 8vh; }
+
+.venue__card--img {
+  height: 28vh;
+  width: 100%;
+  object-fit: cover; }
+
+.venue__card--info {
+  margin: 0px 16px;
+  font-family: "Lato"; }
+
+.venue__card--name {
+  font-family: "Permanent Marker";
+  font-size: 2rem;
+  margin-bottom: 8px; }
+
+.venue__card--desc {
+  line-height: 1.4rem; }
+
+.venus__card--buttons {
+  display: flex;
+  justify-content: space-between;
+  padding: 12px 0px;
+  font-family: "Permanent Marker"; }
+
+.venus__card--button {
+  font-size: 1.2rem; }
+
+.venus__card--button:hover {
+  cursor: pointer; }
 
 /*# sourceMappingURL=index.css.map */
