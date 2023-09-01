@@ -93,7 +93,7 @@ main {
 .res__section {
   display: flex;
   justify-content: center;
-  margin-bottom: 8vh; }
+  padding-bottom: 16vh; }
 
 .res--title {
   font-family: "Permanent Marker";
@@ -107,17 +107,31 @@ main {
   font-family: "Permanent Marker";
   font-size: 3rem; }
 
-.footer {
-  position: fixed;
-  z-index: 10;
+footer {
+  position: relative;
   bottom: 0;
-  color: #F7F3E3;
   font-size: 1rem;
   font-family: "Lato";
   background-color: #291F1E;
-  height: 8vh;
   width: 100vw;
   display: flex;
-  justify-content: center; }
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; }
+
+.footer__text {
+  color: #F7F3E3;
+  padding-top: 1rem;
+  margin-top: 0; }
+
+.footer__links {
+  color: #F7F3E3;
+  padding-bottom: 1rem;
+  width: 10vw;
+  display: flex;
+  justify-content: space-between; }
+
+.footer__link {
+  color: #F7F3E3; }
 
 /*# sourceMappingURL=index.css.map */
