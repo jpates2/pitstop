@@ -1,0 +1,22 @@
+.navbar {
+  z-index: 5;
+  height: 8vh;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  color: $chalk;
+  font-size: 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-logo {
+  font-family: $main-header-font;
+  vertical-align: middle;
+  margin-left: 1rem;
+}
+
+.nav-menu {
+  margin-right: 1rem;
+}

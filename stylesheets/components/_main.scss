@@ -15,14 +15,11 @@ body {
 // orange #E4572E
 // licorice #291F1E
 
-
 header {
   height: 100vh;
   background: #291F1E;
   position: fixed;
   top: 0;
-  left: 0;
-  z-index: 1;
 }
 
 .page-title {
@@ -31,7 +28,7 @@ header {
   text-align: center;
   margin: 0;
   padding-top: 40%;
-  color: #F7F3E3;
+  color: $chalk;
 
   span {
   font-size: 10rem;
@@ -41,6 +38,16 @@ header {
 main {
   position: relative;
   margin-top: 100vh;
-  z-index: 2;
-  background-color: #F7F3E3;
+  background-color: $chalk;
+}
+
+.slogan {
+  padding-top: 6vh;
+  padding-bottom: 6vh;
+  font-family: $main-header-font;
+  font-size: 3rem;
+  text-align: center;
+  p {
+    margin: 0;
+  }
 }

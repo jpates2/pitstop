@@ -6,9 +6,7 @@ header {
   height: 100vh;
   background: #291F1E;
   position: fixed;
-  top: 0;
-  left: 0;
-  z-index: 1; }
+  top: 0; }
 
 .page-title {
   font-family: "Permanent Marker";
@@ -23,7 +21,35 @@ header {
 main {
   position: relative;
   margin-top: 100vh;
-  z-index: 2;
   background-color: #F7F3E3; }
+
+.slogan {
+  padding-top: 6vh;
+  padding-bottom: 6vh;
+  font-family: "Permanent Marker";
+  font-size: 3rem;
+  text-align: center; }
+  .slogan p {
+    margin: 0; }
+
+.navbar {
+  z-index: 5;
+  height: 8vh;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  color: #F7F3E3;
+  font-size: 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center; }
+
+.nav-logo {
+  font-family: "Permanent Marker";
+  vertical-align: middle;
+  margin-left: 1rem; }
+
+.nav-menu {
+  margin-right: 1rem; }
 
 /*# sourceMappingURL=index.css.map */
