@@ -1,9 +1,10 @@
 .find__section {
-  display: flex;
-  justify-content: center;
+  background-color: $dark;
+  color: $chalk;
+  text-align: center;
 }
 
-.find--title {
+.find__title {
   font-family: $main-header-font;
   font-size: 3rem;
 }

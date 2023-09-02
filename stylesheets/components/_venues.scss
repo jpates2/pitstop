@@ -1,10 +1,11 @@
 .venue__card {
-  // height: 52vh;
+  position: relative;
   background-color: $dark;
   color: $chalk;
   overflow: hidden;
   border-radius: 4px;
   margin-bottom: 8vh;
+  // max-width: 600px;
 }
 
 .venue__card--img {
@@ -14,31 +15,56 @@
 }
 
 .venue__card--info {
-  margin: 0px 16px;
   font-family: $text-font;
 }
 
 .venue__card--name {
   font-family: $main-header-font;
   font-size: 2rem;
-  margin-bottom: 8px;
+  margin-bottom: 0.5rem;
+  margin: 1rem;
 }
 
 .venue__card--desc {
   line-height: 1.4rem;
+  padding-bottom: 6rem;
+  margin: 0 1rem;
 }
 
-.venus__card--buttons {
-  display: flex;
-  justify-content: space-between;
-  padding: 16px 0px 24px 0px;
+.venues__card--buttons {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  padding: 1rem 0 1.5rem 0;
+  margin-bottom: 2rem;
   font-family: $main-header-font;
 }
 
-.venus__card--button {
+.venues__card--menu-button {
+  position: absolute;
+  left: 1.5rem;
+}
+
+.venues__card--site-button {
+  position: absolute;
+  right: 1.5rem;
+}
+
+.venues__card--button {
   font-size: 1.2rem;
 }
 
-.venus__card--button:hover {
+.venues__card--button:hover {
   cursor: pointer;
+}
+
+
+@media (min-width: 800px) {
+  .venue__section {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
 }

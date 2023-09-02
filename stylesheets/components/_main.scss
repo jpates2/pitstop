@@ -46,11 +46,16 @@ main {
 
 .slogan {
   padding-top: 6vh;
-  padding-bottom: 6vh;
+  padding-bottom: 8vh;
   font-family: $main-header-font;
   font-size: 3rem;
   text-align: center;
   p {
     margin: 0;
   }
+}
+
+.background--chalk {
+  background-color: $chalk;
+  height: 8vh;
 }
