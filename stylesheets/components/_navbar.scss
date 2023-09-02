@@ -17,6 +17,50 @@
   margin-left: 1.5rem;
 }
 
-.nav-menu {
+.nav-menu__button {
   margin-right: 1.5rem;
 }
+
+.burger__menu--container {
+  display: none;
+  // transform: translateX(100%);
+  // transition: transform 300ms ease-out;
+}
+
+.burger__menu {
+  position: fixed;
+  top: 0;
+  right: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  width: 100vw;
+  height: 100vh;
+  z-index: 100;
+  background-color: $chalk;
+  padding-top: 2rem;
+  padding-right: 4rem;
+}
+
+.burger__menu--item {
+  color: $dark;
+  font-family: $main-header-font;
+  font-size: 2rem;
+  margin-top: 2rem;
+}
+
+.burger__menu--close {
+  font-size: 4rem;
+  font-family: $main-header-font;
+  margin-bottom: 4rem;
+}
+
+.open {
+  display: block !important;
+  // opacity: 1 !important;
+  // transform: translateX(0) !important;
+}
+
+// .hidden {
+//   display: none;
+// }

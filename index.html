@@ -13,13 +13,25 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <!-- <link rel="shortcut icon" href="../favicon.png"> -->
     <link rel="stylesheet" href="index.css">
+    <script defer src="javascript/index.js" type="module"></script>
   </head>
 
   <body>
 
     <div class="navbar">
       <div class="nav-logo">PS.</div>
-      <i class="fa fa-solid fa-bars nav-menu"></i>
+      <i class="fa fa-solid fa-bars nav-menu__button"></i>
+    </div>
+
+    <div class="burger__menu--container hidden">
+      <div class="burger__menu">
+        <a class="burger__menu--close">X</a>
+        <a class="burger__menu--item">EAT</a>
+        <a class="burger__menu--item">DRINK</a>
+        <a class="burger__menu--item">ABOUT</a>
+        <a class="burger__menu--item">FIND US</a>
+        <a class="burger__menu--item">BOOKINGS</a>
+      </div>
     </div>
 
     <header>
@@ -77,7 +89,7 @@
           <img class="venue__card--img" src="images/burger1.jpg" />
           <div class="venue__card--info">
             <h1 class="venue__card--name">Bill + Ben The Burger Men</h1>
-            <p class="venue__card--desc">Savor the sizzle and spice at our taco stand! We're dishing out flavor-packed, mouthwatering tacos that'll have you savoring the essence of authentic street cuisine. From tasty carnitas to zesty fish, our tacos are a fiesta of flavors you won't want to miss.</p>
+            <p class="venue__card--desc">Welcome to our Burger Joint, where burgers are an art form. Sink your teeth into a world of mouthwatering patties, stacked high with all your favorite toppings. From classic cheeseburgers to daring flavor combinations, we're here to satisfy your burger cravings. Get ready for a taste sensation!</p>
             <div class="venues__card--buttons">
               <a class="venues__card--button venues__card--menu-button">View menu</a>
               <a class="venues__card--button venues__card--site-button">Visit site</a>
@@ -139,7 +151,7 @@
       </div>
 
       <div class="res__section">
-        <h1 class="res__title">Reservations</h1>
+        <h1 class="res__title">Bookings</h1>
 
         <form class="res__form">
           <label for="name">Name</label>

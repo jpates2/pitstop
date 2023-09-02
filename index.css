@@ -55,8 +55,39 @@ main {
   vertical-align: middle;
   margin-left: 1.5rem; }
 
-.nav-menu {
+.nav-menu__button {
   margin-right: 1.5rem; }
+
+.burger__menu--container {
+  display: none; }
+
+.burger__menu {
+  position: fixed;
+  top: 0;
+  right: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  width: 100vw;
+  height: 100vh;
+  z-index: 100;
+  background-color: #F7F3E3;
+  padding-top: 2rem;
+  padding-right: 4rem; }
+
+.burger__menu--item {
+  color: #291F1E;
+  font-family: "Permanent Marker";
+  font-size: 2rem;
+  margin-top: 2rem; }
+
+.burger__menu--close {
+  font-size: 4rem;
+  font-family: "Permanent Marker";
+  margin-bottom: 4rem; }
+
+.open {
+  display: block !important; }
 
 .venue__card {
   position: relative;
