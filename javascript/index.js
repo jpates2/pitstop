@@ -5,14 +5,15 @@ const navMenuCloseButton = document.querySelector(".burger__menu--close");
 const homeSection = document.querySelector("#home--section");
 const navLogo = document.querySelector(".nav-logo");
 
+// Navbar open and close
 navMenuButton.addEventListener("click", function() {
-  console.log("test");
   navMenuContainer.classList.add("open");
 })
 
 navMenuCloseButton.addEventListener("click", function() {
   navMenuContainer.classList.remove("open");
 })
+
 
 // Navbar links
 navMenu.addEventListener('click', function (e) {
@@ -27,6 +28,23 @@ navMenu.addEventListener('click', function (e) {
 
 navLogo.addEventListener("click", function(e) {
   e.preventDefault();
-  console.log("logo test");
   window.scrollTo({ top: 0, behavior: 'smooth' });
 })
+
+
+// Navbar disappear
+const slogan = document.querySelector('.slogan');
+const navbar = document.querySelector('.navbar');
+
+let prevScollPos = window.scrollY;
+let height = screen.height * 0.9;
+
+window.onscroll = function () {
+  let currentScrollPos = window.scrollY;
+
+  prevScollPos < currentScrollPos && currentScrollPos > height ?
+    navbar.classList.add("scroll") :
+    navbar.classList.remove("scroll");
+
+  prevScollPos = currentScrollPos;
+}
