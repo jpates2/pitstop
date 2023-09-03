@@ -1,4 +1,7 @@
 {
+  "scripts": {
+    "build": "mc-scripts build"
+  },
   "dependencies": {
     "font-awesome": "^4.7.0"
   }
