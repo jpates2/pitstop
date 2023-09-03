@@ -23,7 +23,16 @@
   margin-bottom: 8vh;
 
   input {
-    font-family: $text-font;
+    all: unset;
+    background-color: $chalk;
+    color: $dark;
+    border-radius: 4px;
+    vertical-align: center;
+    margin: auto 0;
+    text-align: start;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    // height: 1.5rem;
   }
 
   button {

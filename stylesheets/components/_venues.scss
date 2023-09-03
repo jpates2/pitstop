@@ -68,3 +68,9 @@
     padding-right: 2rem;
   }
 }
+
+@media (min-width: 1200px) {
+  .venue__card--img {
+    height: 40vh;
+  }
+}
