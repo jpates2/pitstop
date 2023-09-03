@@ -1,8 +1,10 @@
 {
-  "scripts": {
-    "build": "mc-scripts build"
-  },
+  "name": "pitstop",
+  "private": true,
   "dependencies": {
     "font-awesome": "^4.7.0"
+  },
+  "scripts": {
+    "build": "mc-scripts build"
   }
 }
