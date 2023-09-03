@@ -107,6 +107,12 @@ main {
 .open {
   opacity: 80 !important; }
 
+.nav-menu__button:hover,
+.nav-logo:hover,
+.burger__menu--close:hover {
+  cursor: pointer;
+  transform: scale(1.1); }
+
 .venue__card {
   position: relative;
   background-color: #291F1E;
@@ -261,7 +267,8 @@ main {
     width: 44vw;
     height: 44vw;
     max-width: 400px;
-    max-height: 400px; } }
+    max-height: 400px;
+    border-radius: 4px; } }
 footer {
   position: relative;
   bottom: 0;
@@ -302,5 +309,16 @@ footer {
   font-family: "Permanent Marker";
   font-size: 3rem;
   margin: 0; }
+
+.about__info {
+  font-family: "Lato";
+  line-height: 1.5rem;
+  margin-left: 4vw;
+  margin-right: 4vw; }
+
+@media (min-width: 800px) {
+  .about__info {
+    margin-left: 12vw;
+    margin-right: 12vw; } }
 
 /*# sourceMappingURL=index.css.map */
