@@ -5,6 +5,11 @@ const navMenuCloseButton = document.querySelector(".burger__menu--close");
 const homeSection = document.querySelector("#home--section");
 const navLogo = document.querySelector(".nav-logo");
 
+// Scroll to top on refresh
+window.onbeforeunload = () => {
+  window.scrollTo(0, 0);
+}
+
 // Navbar open and close
 navMenuButton.addEventListener("click", function() {
   navMenuContainer.classList.add("open");
