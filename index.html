@@ -18,23 +18,23 @@
 
   <body>
 
-    <div class="navbar">
-      <div class="nav-logo">PS.</div>
-      <i class="fa fa-solid fa-bars nav-menu__button"></i>
-    </div>
-
-    <div class="burger__menu--container hidden">
+    <div class="burger__menu--container">
       <div class="burger__menu">
         <a class="burger__menu--close">X</a>
-        <a class="burger__menu--item">EAT</a>
-        <a class="burger__menu--item">DRINK</a>
-        <a class="burger__menu--item">ABOUT</a>
-        <a class="burger__menu--item">FIND US</a>
-        <a class="burger__menu--item">BOOKINGS</a>
+        <a class="burger__menu--item" href="#eat--section">EAT</a>
+        <a class="burger__menu--item" href="#drink--section">DRINK</a>
+        <a class="burger__menu--item" href="#about--section">ABOUT</a>
+        <a class="burger__menu--item" href="#find--section">FIND US</a>
+        <a class="burger__menu--item" href="#bookings--section">BOOKINGS</a>
       </div>
     </div>
 
-    <header>
+    <div class="navbar">
+      <div class="nav-logo" href="#home--section">PS.</div>
+      <i class="fa fa-solid fa-bars nav-menu__button"></i>
+    </div>
+
+    <header id="home--section">
       <h1 class="page-title">
         <span class="page-title--cap">P</span>IT <span class="page-title--cap">S</span>TOP.
       </h1>
@@ -48,7 +48,7 @@
         <p>Pit stop here.</p>
       </div>
 
-      <div class="venue__section">
+      <div class="venue__section" id="eat--section">
         <div class="venue__card">
           <img class="venue__card--img" src="images/bros_pizza.jpg" />
           <div class="venue__card--info">
@@ -109,7 +109,7 @@
           </div>
         </div>
 
-        <div class="venue__card">
+        <div class="venue__card" id="drink--section">
           <img class="venue__card--img" src="images/crafty1.jpg" />
           <div class="venue__card--info">
             <h1 class="venue__card--name">Crafty</h1>
@@ -146,11 +146,15 @@
         </div>
       </div>
 
-      <div class="find__section">
+      <div class="find__section" id="about--section">
+        <h1 class="find__title">About</h1>
+      </div>
+
+      <div class="find__section" id="find--section">
         <h1 class="find__title">Find Us</h1>
       </div>
 
-      <div class="res__section">
+      <div class="res__section" id="bookings--section">
         <h1 class="res__title">Bookings</h1>
 
         <form class="res__form">

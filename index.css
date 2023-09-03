@@ -59,7 +59,7 @@ main {
   margin-right: 1.5rem; }
 
 .burger__menu--container {
-  display: none; }
+  opacity: 0; }
 
 .burger__menu {
   position: fixed;
@@ -79,7 +79,8 @@ main {
   color: #291F1E;
   font-family: "Permanent Marker";
   font-size: 2rem;
-  margin-top: 2rem; }
+  margin-top: 2rem;
+  text-decoration: none; }
 
 .burger__menu--close {
   font-size: 4rem;
@@ -87,7 +88,7 @@ main {
   margin-bottom: 4rem; }
 
 .open {
-  display: block !important; }
+  opacity: 80 !important; }
 
 .venue__card {
   position: relative;
