@@ -209,12 +209,59 @@ main {
 .find__section {
   background-color: #291F1E;
   color: #F7F3E3;
-  text-align: center; }
+  text-align: center;
+  margin-top: 8vh;
+  padding-top: 4vh;
+  padding-bottom: 4vh; }
 
 .find__title {
   font-family: "Permanent Marker";
-  font-size: 3rem; }
+  font-size: 3rem;
+  margin: 0 0 2rem 0; }
 
+.map {
+  width: 100vw;
+  height: 100vw;
+  max-width: 800px;
+  max-height: 800px; }
+
+.find__info {
+  font-family: "Lato";
+  display: flex;
+  flex-direction: column;
+  max-width: 500px;
+  margin: 0 auto; }
+  .find__info p {
+    margin-top: 0;
+    margin-bottom: 0.5rem; }
+
+.find__info--times {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
+  grid-auto-flow: column;
+  margin-top: 2vh;
+  margin-bottom: 2vh; }
+
+@media (min-width: 800px) {
+  .find__info--container {
+    display: flex;
+    margin-left: 8vw;
+    margin-right: 8vw;
+    justify-content: space-evenly;
+    align-items: center; }
+
+  .find__info {
+    margin: 0; }
+
+  .find__info--times {
+    margin-top: 4vh; }
+
+  .map {
+    width: 44vw;
+    height: 44vw;
+    max-width: 400px;
+    max-height: 400px; } }
 footer {
   position: relative;
   bottom: 0;
@@ -242,5 +289,18 @@ footer {
 
 .footer__link {
   color: #F7F3E3; }
+
+.about__section {
+  background-color: #291F1E;
+  color: #F7F3E3;
+  text-align: center;
+  margin-bottom: 8vh;
+  padding-top: 4vh;
+  padding-bottom: 4vh; }
+
+.about__title {
+  font-family: "Permanent Marker";
+  font-size: 3rem;
+  margin: 0; }
 
 /*# sourceMappingURL=index.css.map */
