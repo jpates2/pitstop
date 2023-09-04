@@ -53,3 +53,7 @@ window.onscroll = function () {
 
   prevScollPos = currentScrollPos;
 }
+
+
+// Form date placeholder
+document.getElementById('date').valueAsDate = new Date();
