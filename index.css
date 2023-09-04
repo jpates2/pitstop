@@ -102,7 +102,7 @@ main {
 .burger__menu--close {
   font-size: 4rem;
   font-family: "Permanent Marker";
-  margin-bottom: 4rem; }
+  margin-bottom: 2rem; }
 
 .open {
   opacity: 80 !important; }
